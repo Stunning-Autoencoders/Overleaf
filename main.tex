@@ -1,0 +1,70 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out
+                                                          % if you need a4paper
+\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4
+                                                          % paper
+                                                          
+\IEEEoverridecommandlockouts
+\overrideIEEEmargins
+\usepackage{cite}
+%\usepackage{graphics} % for pdf, bitmapped graphics files
+%\usepackage{epsfig} % for postscript graphics files
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+%\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+
+\title{\LARGE \bf
+Stunning Autoencoder
+}
+
+\author{Sebastian Fellner$^{1}$, Mathias Minos-Stensrud$^{2}$, Endre Wollan$^{3}$ and Radu Burcea$^{3}$% 
+%
+\thanks{$^{1}$ Department of Informatics, Technical University of Munich}%
+\thanks{$^{2}$ Department of Technology Systems, University of Oslo}%
+\thanks{$^{3}$ Department of Informatics, University of Oslo}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\begin{abstract}
+\input{sections/0_abstract.tex}
+\end{abstract}
+
+\section{INTRODUCTION}
+\input{sections/1_introduction.tex}
+
+\section{PROCEDURE FOR PAPER SUBMISSION}
+\input{sections/2_section.tex}
+
+\section{MATH}
+\input{sections/3_section.tex}
+
+\section{USING THE TEMPLATE}
+\input{sections/4_section.tex}
+
+\section{CONCLUSIONS}
+\input{sections/5_section.tex}
+
+
+\addtolength{\textheight}{-12cm}   
+% This command serves to balance the column lengths on the last page of the document manually. It shortens the textheight of the last page by a suitable amount. This command does not take effect until the next page so it should come on the page before the last. Make sure that you do not shorten the textheight too much.
+                                  
+\section*{APPENDIX}
+Appendixes should appear before the acknowledgment.
+
+\section*{ACKNOWLEDGMENT}
+The preferred spelling of the word acknowledgmen in America is without an e after the g. Avoid the stilted expression, One of us (R. B. G.) thanks . . .  Instead, try R. B. G. thanks. Put sponsor acknowledgments in the unnumbered footnote on the first page.
+
+\bibliography{main.bib}
+\bibliographystyle{IEEEtran}
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
